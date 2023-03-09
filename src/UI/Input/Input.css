@@ -1,0 +1,33 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.input-field {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 15px;
+  align-items: center;
+  padding: 0 15px;
+  background-color: hsl(202, 50%, 97%);
+  border-radius: 6px;
+}
+
+.input-container label {
+  color: #667072;
+}
+
+.input-field input {
+  border: none;
+  height: 35px;
+  background: none;
+  outline: none;
+  color: #05484e;
+  font-size: 18px;
+  direction: rtl;
+}
+
+.input-field:focus-within {
+  border: 2px solid #58a89d;
+}

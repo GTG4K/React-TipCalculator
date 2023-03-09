@@ -1,0 +1,30 @@
+.Button {
+  background: hsl(180, 100%, 15%);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s;
+  user-select: none;
+}
+
+.Button.selected {
+  background: hsl(173, 60%, 75%);
+  color: hsl(180, 100%, 15%);
+}
+
+.Button.invert {
+  background: hsl(170, 75%, 45%);
+  color: hsl(180, 100%, 15%);
+}
+
+.Button:hover,
+.Button.invert:hover {
+  background: hsl(173, 60%, 75%);
+  color: hsl(180, 100%, 15%);
+}

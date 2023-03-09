@@ -1,0 +1,48 @@
+.bill-configurator {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.tip-percentage {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.tip-percentage .inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.tip-percentage .inputs input {
+  border: none;
+  outline: none;
+
+  border-radius: 6px;
+  background-color: hsl(202, 50%, 97%);
+  text-align: center;
+  cursor: pointer;
+
+  color: #05484e;
+  font-size: 18px;
+}
+
+.tip-percentage .inputs input.selected {
+  border: 2px solid #58a89d;
+}
+
+.tip-percentage label {
+  color: #667072;
+}
+
+.tip-percentage input {
+  width: 80px;
+}
+
+@media only screen and (max-width: 375px) {
+  .tip-percentage .inputs {
+    grid-template-columns: 1fr 1fr;
+  }
+}

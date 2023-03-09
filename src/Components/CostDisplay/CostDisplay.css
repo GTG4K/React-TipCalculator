@@ -1,0 +1,20 @@
+.cost-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cost-display .details h3 {
+  color: white;
+  font-size: 14px;
+}
+
+.cost-display .details p {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 12px;
+}
+
+.cost-display h2 {
+  font-size: 30px;
+  color: hsl(170, 75%, 45%);
+}

@@ -1,0 +1,17 @@
+.bill-display {
+  padding: 20px;
+  min-width: 300px;
+  border-radius: 12px;
+  background: hsl(180, 100%, 15%);
+
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.bill-display .bills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
